@@ -2,7 +2,7 @@
 body{
     background-color: #9DBEBB;
     height: 100vh;
-  
+   display: flex;
    align-items: center;
     
    justify-items: center;
@@ -28,13 +28,18 @@ body{
 }
 
 .name{
-    width: 350px;
+    width: 150px;
 }
 
 .label{
     font-family: "Roboto", sans-serif;
     color: #fdffff;
 }
+
+.label:hover{
+    color: #468189;
+}
+
 .container{
 
    width: 800px;
@@ -43,7 +48,7 @@ body{
     display: flex;
 
     align-items: center;
-    line-height: 40px;
+    
     
 
 }
@@ -58,6 +63,11 @@ body{
 
 }
 
+.input-field:hover{
+    background-color: white;
+}
+
+
 button{
     background-color: #468189;
     color: #ffffff;
@@ -68,9 +78,20 @@ button{
     margin-left: 164px;
 }
 
+button:hover{
+    background-color: #FFB039;
+}
+
 img{
 
 
-    width: 550px;
+    width: 570px;
     padding-top: 90px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
 }

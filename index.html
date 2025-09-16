@@ -12,26 +12,27 @@
     <section class="hero">
         <form action="">
             <div class="container">
-                <div>
-                    <label for="name" class="label">FULL NAME</label><br>
-                    <input type="name" name="name" id="name" class="input-field name" placeholder=""><br>
+                <div class="form">
+                    <label for="name" class="label">FULL NAME</label>
+                    <input type="text" name="name" id="name" class="input-field" placeholder="">
 
-                <label for="email" class="label">Email</label><br>
-                <input type="email" name="email" id="email" class="input-field" placeholder="Your Email"><br>
+                    <label for="email" class="label">Email</label>
+                    <input type="text" name="email" id="email" class="input-field name" placeholder="Your Email" required>
 
-                <label for="Regarding" class="label">MESSAGE REGARDING</label><br>
-                <input type="Regarding" name="Regarding" id="Regarding" class="input-field" placeholder=""><br>
+                    <label for="Regarding" class="label">MESSAGE REGARDING</label>
+                    <input type="text" name="Regarding" id="Regarding" class="input-field name" placeholder="">
 
-                <label for="message" class="label">MESSAGE</label><br>
-                <input type="message" name="message" id="message" class="input-field name" placeholder="Your Message"><br><br>
+                    <label for="message" class="label">MESSAGE</label>
+                    <input type="text" name="message" id="message" class="input-field" placeholder="Your Message">
+
+                    <button type="submit">SEND MESSAGE</button>
                 
-                <button class="send-btn">SEND MESSAGE</button>
-            </div>
-            <div class="image">
-                <img src="images/duck.svg" alt="duck">
-            </div>               
-        </div> 
-    </form>  
+                </div>
+                <div class="image">
+                    <img src="images/duck.svg" alt="duck">
+                </div>               
+            </div> 
+        </form>  
     </section> 
 </body>
 </html>
