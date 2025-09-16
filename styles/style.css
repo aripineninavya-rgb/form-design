@@ -2,18 +2,18 @@
 body{
     background-color: #9DBEBB;
     height: 100vh;
-   display: flex;
-   align-items: center;
+    display: flex;
+    align-items: center;
     
-   justify-items: center;
+    justify-items: center;
 
 }
 
 .hero{
     margin: 50px;
-    padding: 50px;
-   display: flex;
-   align-items: center;
+    padding: 60px;
+    display: flex;
+    align-items: center;
    
     width: 800px;
     height: 400px ;
@@ -43,7 +43,7 @@ body{
 .container{
 
    width: 800px;
-    height: 400px ;
+   height: 400px ;
 
     display: flex;
 
