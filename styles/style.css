@@ -3,9 +3,9 @@ body{
     background-color: #9DBEBB;
     height: 100vh;
     display: flex;
-    align-items: center;
     
-    justify-items: center;
+    
+    justify-content: center;
 
 }
 
